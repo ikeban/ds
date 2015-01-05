@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 RUN	apt-get update 
 RUN	apt-get -y upgrade
 RUN	apt-get -y install
-RUN	apt-get build-essential 
+RUN	apt-get install build-essential 
 RUN	apt-get -y cmake 
 RUN	apt-get -y exuberant-ctags 
 RUN	apt-get -y git 
