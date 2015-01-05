@@ -15,18 +15,18 @@ RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libbz2-dev
 RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libdigest-hmac-perl 
 RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libdigest-sha-perl 
 RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libevent-dev 
-RUN	apt-get -y install libextutils-parsexs-perl 
-RUN	apt-get -y install liblzo2-dev 
-RUN	apt-get -y install liblz4-dev 
-RUN	apt-get -y install libpcre3-dev 
-RUN	apt-get -y install libsnappy-dev 
-RUN	apt-get -y install libssl-dev 
-RUN	apt-get -y install libxml2-dev 
-RUN	apt-get -y install libxml-parser-perl 
-RUN	apt-get -y install libz-dev 
-RUN	apt-get -y install perl 
-RUN	apt-get -y install make 
-RUN	apt-get -y install vim
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libextutils-parsexs-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install liblzo2-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install liblz4-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libpcre3-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libsnappy-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libssl-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libxml2-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libxml-parser-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libz-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install perl 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install make 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install vim
 
 WORKDIR	/usr/src
 
