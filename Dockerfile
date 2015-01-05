@@ -4,19 +4,19 @@ RUN	apt-get update
 RUN	apt-get -y upgrade
 RUN	apt-get -y install
 RUN set DEBIAN_FRONTEND=noninteractive apt-get autoremove
-RUN	apt-get -y install build-essential 
-RUN apt-get -y install dialog
-RUN	apt-get -y install cmake 
-RUN	apt-get -y install exuberant-ctags 
-RUN	apt-get -y install git 
-RUN	apt-get -y install libboost-dev 
-RUN	apt-get -y install libboost-program-options-dev 
-RUN	apt-get -y install libboost-test-dev 
-RUN	apt-get -y install libboost-thread-dev 
-RUN	apt-get -y install libbz2-dev 
-RUN	apt-get -y install libdigest-hmac-perl 
-RUN	apt-get -y install libdigest-sha-perl 
-RUN	apt-get -y install libevent-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install build-essential 
+RUN set DEBIAN_FRONTEND=noninteractive apt-get -y install dialog
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install cmake 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install exuberant-ctags 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install git 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-program-options-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-test-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-thread-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libbz2-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libdigest-hmac-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libdigest-sha-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libevent-dev 
 RUN	apt-get -y install libextutils-parsexs-perl 
 RUN	apt-get -y install liblzo2-dev 
 RUN	apt-get -y install liblz4-dev 
