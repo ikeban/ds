@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 RUN	apt-get update 
 RUN	apt-get -y upgrade
 RUN	apt-get -y install
-RUN	apt-get -y install dialog
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install build-essential 
 RUN	apt-get -y install cmake 
 RUN	apt-get -y install exuberant-ctags 
