@@ -4,29 +4,29 @@ RUN	apt-get update
 RUN	apt-get -y upgrade
 RUN	apt-get -y install
 RUN	apt-get -y install build-essential 
-RUN	apt-get -y cmake 
-RUN	apt-get -y exuberant-ctags 
-RUN	apt-get -y git 
-RUN	apt-get -y libboost-dev 
-RUN	apt-get -y libboost-program-options-dev 
-RUN	apt-get -y libboost-test-dev 
-RUN	apt-get -y libboost-thread-dev 
-RUN	apt-get -y libbz2-dev 
-RUN	apt-get -y libdigest-hmac-perl 
-RUN	apt-get -y libdigest-sha-perl 
-RUN	apt-get -y libevent-dev 
-RUN	apt-get -y libextutils-parsexs-perl 
-RUN	apt-get -y liblzo2-dev 
-RUN	apt-get -y liblz4-dev 
-RUN	apt-get -y libpcre3-dev 
-RUN	apt-get -y libsnappy-dev 
-RUN	apt-get -y libssl-dev 
-RUN	apt-get -y libxml2-dev 
-RUN	apt-get -y libxml-parser-perl 
-RUN	apt-get -y libz-dev 
-RUN	apt-get -y perl 
-RUN	apt-get -y make 
-RUN	apt-get -y vim
+RUN	apt-get -y install cmake 
+RUN	apt-get -y install exuberant-ctags 
+RUN	apt-get -y install git 
+RUN	apt-get -y install libboost-dev 
+RUN	apt-get -y install libboost-program-options-dev 
+RUN	apt-get -y install libboost-test-dev 
+RUN	apt-get -y install libboost-thread-dev 
+RUN	apt-get -y install libbz2-dev 
+RUN	apt-get -y install libdigest-hmac-perl 
+RUN	apt-get -y install libdigest-sha-perl 
+RUN	apt-get -y install libevent-dev 
+RUN	apt-get -y install libextutils-parsexs-perl 
+RUN	apt-get -y install liblzo2-dev 
+RUN	apt-get -y install liblz4-dev 
+RUN	apt-get -y install libpcre3-dev 
+RUN	apt-get -y install libsnappy-dev 
+RUN	apt-get -y install libssl-dev 
+RUN	apt-get -y install libxml2-dev 
+RUN	apt-get -y install libxml-parser-perl 
+RUN	apt-get -y install libz-dev 
+RUN	apt-get -y install perl 
+RUN	apt-get -y install make 
+RUN	apt-get -y install vim
 
 WORKDIR	/usr/src
 
