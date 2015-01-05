@@ -3,30 +3,30 @@ FROM ubuntu:14.04
 RUN	apt-get update 
 RUN	apt-get -y upgrade
 RUN	apt-get -y install
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install build-essential 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install cmake 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install exuberant-ctags 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install git 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-program-options-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-test-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libboost-thread-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libbz2-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libdigest-hmac-perl 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libdigest-sha-perl 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libevent-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libextutils-parsexs-perl 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install liblzo2-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install liblz4-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libpcre3-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libsnappy-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libssl-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libxml2-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libxml-parser-perl 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install libz-dev 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install perl 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install make 
-RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install vim
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install build-essential 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install cmake 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install exuberant-ctags 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install git 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libboost-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libboost-program-options-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libboost-test-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libboost-thread-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libbz2-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libdigest-hmac-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libdigest-sha-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libevent-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libextutils-parsexs-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install liblzo2-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install liblz4-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libpcre3-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libsnappy-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libssl-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libxml2-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libxml-parser-perl 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install libz-dev 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install perl 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install make 
+RUN	set DEBIAN_FRONTEND=noninteractive && apt-get -y install vim
 
 WORKDIR	/usr/src
 
