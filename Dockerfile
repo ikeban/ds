@@ -5,11 +5,17 @@ RUN	apt-get -y upgrade
 RUN	apt-get -y install
 RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install build-essential 
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install cmake 
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install exuberant-ctags 
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install git 
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install libboost-dev 
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install libboost-program-options-dev 
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	apt-get -y install libboost-test-dev 
 RUN	apt-get -y install libboost-thread-dev 
 RUN	apt-get -y install libbz2-dev 
