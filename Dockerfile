@@ -3,7 +3,6 @@ FROM ubuntu:14.04
 RUN	apt-get update 
 RUN	apt-get -y upgrade
 RUN	apt-get -y install
-RUN set DEBIAN_FRONTEND=noninteractive apt-get autoremove
 RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install build-essential 
 RUN set DEBIAN_FRONTEND=noninteractive apt-get -y install dialog
 RUN	set DEBIAN_FRONTEND=noninteractive apt-get -y install cmake 
